@@ -1,0 +1,19 @@
+.video {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    
+    margin: 50px auto;
+    scroll-snap-type: x mandatory;
+}
+
+.video::-webkit-scrollbar {width:0px;}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 70px;
+    scroll-snap-align: start;
+}

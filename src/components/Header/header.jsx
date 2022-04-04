@@ -8,7 +8,7 @@ const Header = () => {
             <h1>karl kust</h1>
             
             <form>
-                <input type="text" className="form-control" placeholder="название песни..." />
+                <input type="search" className="form-control" placeholder="название песни..." />
                 <button type="submit" className="btn btn-primary">Найти</button>
             </form>
         </div>
