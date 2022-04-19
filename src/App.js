@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Albums />
-      <Videos />
+      {/* <Videos /> */}
       <Footer />
     </div>
   );

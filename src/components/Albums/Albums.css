@@ -28,3 +28,22 @@ a {
     text-decoration: none;
     text-align: center;
 }
+
+
+.slider-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-prev-next {
+
+    background: transparent;
+    border-radius: 50%;
+
+}
+
+.btn-prev {
+
+    background: transparent;
+    border-radius: 50%;
+}

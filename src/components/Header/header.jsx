@@ -5,7 +5,11 @@ const Header = () => {
 
     return (
         <div className="header">
-            <h1>karl kust</h1>
+            <a href="/">
+                <h1>
+                    karl kust
+                </h1>
+            </a>
             
             <form>
                 <input type="search" className="form-control" placeholder="название песни..." />
